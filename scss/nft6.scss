@@ -20,79 +20,10 @@
         position: relative;
         z-index: 5;
     }
-    &__form {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        &-title {
-            font-size: 16px;
-            line-height: 120%;
-            color: #FFFFFF;
-        }
-        &-group {
-            border: none;
-            margin: 0;
-            padding: 0;
-            &:not(:first-child) {
-                margin-left: 30px;
-            }
-            input {
-                font-size: 16px;
-                line-height: 120%;
-                background: rgba(255, 255, 255, 0.06);
-                border-radius: 10px;
-                border: rgba(255, 255, 255, 0.06);
-                color: #FFFFFF;
-                width: 440px;
-                height: 55px;
-                padding: 0 20px;
-            }
-            button {
-                width: 166px;
-                height: 55px;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 120%;
-                color: #FFFFFF;
-                background: #628D51;
-                border-radius: 10px;
-            }
-        }
-    }
-    &__btns {
-        margin-top: 40px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        &-right {
-            display: flex;
-            align-items: center;
-        }
-    }
-    &__left-btn {
-        width: 166px;
-        height: 55px;
-        &:not(:first-child) {
-            margin-left: 18px;
-        }
-    }
-    &__right-btn {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 16px;
-        line-height: 120%;
-        color: #6C6F76;
-        width: 200px;
-        height: 55px;
-        background: rgba(255, 255, 255, 0.06);
-        border-radius: 10px;
-        cursor: pointer;
-        &:not(:first-child) {
-            margin-left: 8px;
-        }
-        svg {
-            margin-left: 5px;
+    &__top-btn {
+        background: #628D51;
+        &:hover {
+            background: #628D51;
         }
     }
     &__items {
@@ -130,61 +61,12 @@
         &::after {
             display: none;
         }
-        &__form {
-            display: block;
-            &-group {
-                &:not(:first-child) {
-                    margin-top: 30px;
-                    margin-left: 0;
-                }
-                input {
-                    width: 100%;
-                    max-width: 440px;
-                }
-            }
-        }
-        &__btns {
-            display: block;
-        }
-        &__right-btn {
-            margin-top: 30px;
-        }
     }
 }
 
 @media screen and (max-width: 768px) {
     .nft-six {
         padding: 30px 0;
-        &__form {
-            &-title {
-                font-size: 14px;
-            }
-            &-group {
-                &:not(:first-child) {
-                    margin-top: 15px;
-                }
-                input {
-                    font-size: 14px;
-                    height: 45px;
-                }
-                button {
-                    width: 150px;
-                    height: 45px;
-                    font-size: 14px;
-                }
-            }
-        }
-        &__left-btn {
-            width: 150px;
-            height: 45px;
-            font-size: 14px;
-        }
-        &__right-btn {
-            width: 180px;
-            height: 45px;
-            margin-top: 15px;
-            font-size: 14px;
-        }
         &__items {
             margin-top: 40px;
         }
@@ -195,23 +77,6 @@
     .nft-six {
         &__inner {
             padding: 30px;
-        }
-        &__left-btn {
-            display: block;
-            &:not(:first-child) {
-                margin-top: 15px;
-                margin-left: 0;
-            }
-        }
-        &__btns-right {
-            display: block;
-        }
-        &__right-btn {
-            display: block;
-            &:not(:first-child) {
-                margin-top: 15px;
-                margin-left: 0;
-            }
         }
         &__items {
             display: block;
