@@ -442,6 +442,7 @@ li {
 .header__btn {
   width: 172px;
   height: 47px;
+  border-radius: 10px;
 }
 .header__right {
   display: flex;
@@ -487,7 +488,7 @@ li {
     display: none;
   }
   .header__btn {
-    width: 150px;
+    width: 135px;
     height: 40px;
   }
 }
@@ -1675,6 +1676,7 @@ li {
   margin-top: 40px;
   width: 172px;
   height: 47px;
+  border-radius: 10px;
 }
 .nft__info {
   margin-top: 60px;
@@ -1795,7 +1797,7 @@ li {
   .nft__btn {
     margin-top: 25px;
     font-size: 14px;
-    width: 150px;
+    width: 135px;
     height: 40px;
   }
   .nft__info {
