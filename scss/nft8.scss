@@ -202,5 +202,11 @@
             margin-right: auto;
             margin-left: auto;
         }
+        &__info {
+            display: block;
+            &-right {
+                margin-top: 15px;
+            }
+        }
     }
 }

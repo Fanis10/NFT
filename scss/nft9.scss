@@ -84,8 +84,10 @@
     &__card {
         max-width: 230px;
         min-height: 280px;
+    }
+    &__img {
         border: 1px solid rgba(141, 88, 255, 1);
-        border-radius: 22px;
+        border-radius: 18px;
     }
     &__arrow {
         margin: 0 10px;
@@ -208,6 +210,12 @@
             margin: 15px 0;
             margin-right: auto;
             margin-left: auto;
+        }
+        &__info {
+            display: block;
+            &-right {
+                margin-top: 15px;
+            }
         }
     }
 }

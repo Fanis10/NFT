@@ -1372,6 +1372,12 @@ li {
     margin-right: auto;
     margin-left: auto;
   }
+  .nft-eight__info {
+    display: block;
+  }
+  .nft-eight__info-right {
+    margin-top: 15px;
+  }
 }
 .nft-nine {
   background: #0F1217;
@@ -1460,8 +1466,10 @@ li {
 .nft-nine__card {
   max-width: 230px;
   min-height: 280px;
+}
+.nft-nine__img {
   border: 1px solid #8d58ff;
-  border-radius: 22px;
+  border-radius: 18px;
 }
 .nft-nine__arrow {
   margin: 0 10px;
@@ -1569,6 +1577,12 @@ li {
     margin: 15px 0;
     margin-right: auto;
     margin-left: auto;
+  }
+  .nft-nine__info {
+    display: block;
+  }
+  .nft-nine__info-right {
+    margin-top: 15px;
   }
 }
 .nav {
