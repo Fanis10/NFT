@@ -599,6 +599,7 @@ li {
 .nft-two__right-btn {
   width: 166px;
   height: 55px;
+  border-radius: 10px;
 }
 .nft-two__items {
   margin-top: 60px;
@@ -632,6 +633,11 @@ li {
   }
   .nft-two__btn:not(:first-child) {
     margin-left: 12px;
+  }
+  .nft-two__right-btn {
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
   }
   .nft-two__items {
     margin-top: 40px;
@@ -923,6 +929,14 @@ li {
   }
   .nft-five__items {
     margin-top: 40px;
+  }
+  .nft-five__btn-cancel {
+    width: 150px;
+    height: 45px;
+  }
+  .nft-five__btn-accept {
+    width: 150px;
+    height: 45px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -1445,12 +1459,18 @@ li {
 .nft-nine__item-btn {
   width: 100%;
   height: 55px;
-  color: #464EF9;
   background: #1C1F24;
   border: 1px solid #8d58ff;
   border-radius: 10px;
   margin-top: 30px;
   cursor: pointer;
+}
+.nft-nine__item-btn span {
+  background: linear-gradient(90deg, #464EF9 3%, #8D58FF 62.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 .nft-nine__item-btn--active {
   background: linear-gradient(90deg, #464EF9 3%, #8D58FF 62.73%);
@@ -1462,6 +1482,13 @@ li {
   color: #FFFFFF;
   border: none;
   transition: all 0.3s;
+}
+.nft-nine__item-btn:hover span {
+  color: #FFFFFF;
+  background: unset;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+  background-clip: unset;
 }
 .nft-nine__card {
   max-width: 230px;
@@ -1646,6 +1673,8 @@ li {
 }
 .nft__btn {
   margin-top: 40px;
+  width: 172px;
+  height: 47px;
 }
 .nft__info {
   margin-top: 60px;
@@ -1765,6 +1794,9 @@ li {
   }
   .nft__btn {
     margin-top: 25px;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
   }
   .nft__info {
     margin-top: 40px;
