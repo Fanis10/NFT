@@ -1,0 +1,109 @@
+.nft-two {
+    background: #0F1217;
+    padding: 90px 0;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 400px;
+        height: 100%;
+        top: 0;
+        right: -200px;
+        background: linear-gradient(90deg, #464EF9 3%, #8D58FF 62.73%);
+        filter: blur(450px);
+    }
+    &__inner {
+        position: relative;
+        z-index: 5;
+    }
+    &__btns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-left {
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__btn {
+        width: 244px;
+        height: 55px;
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+    &__right-btn {
+        width: 166px;
+        height: 55px;
+    }
+    &__items {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+    }
+    &__item {
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .nft-two {
+        &__btns {
+            display: block;
+            &-right {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .nft-two {
+        &::after {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nft-two {
+        padding: 30px 0;
+        &__btn {
+            width: 200px;
+            height: 45px;
+            &:not(:first-child) {
+                margin-left: 12px;
+            }
+        }
+        &__items {
+            margin-top: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nft-two {
+        &__btns {
+            &-left {
+                display: block;
+            }
+        }
+        &__btn {
+            &:not(:first-child) {
+                margin-top: 15px;
+                margin-left: 0;
+            }
+        }
+        &__items {
+            display: block;
+        }
+        &__item {
+            &:not(:first-child) {
+                margin-top: 20px;
+                margin-left: 0;
+            }
+        }
+    }
+}

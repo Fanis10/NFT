@@ -1,0 +1,12 @@
+.nav {
+    background: #ffffff;
+    &__link {
+        display: block;
+        font-size: 30px;
+        line-height: 120%;
+        color: #000000;
+        &:not(:first-child) {
+            margin-top: 15px;
+        }
+    }
+}
