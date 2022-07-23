@@ -859,11 +859,11 @@ li {
   margin-bottom: 12px;
 }
 .nft-five__item-btn {
-  width: 166px !important;
-  height: 55px !important;
-  margin-top: 20px !important;
-  position: relative !important;
-  z-index: 2 !important;
+  width: 166px;
+  height: 55px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
 }
 .nft-five__btn:hover {
   transition: all 3s;
