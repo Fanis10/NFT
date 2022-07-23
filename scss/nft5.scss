@@ -56,6 +56,13 @@
             color: #6C6F76;
             margin-bottom: 12px;
         }
+        &-btn {
+            width: 166px;
+            height: 55px;
+            margin-top: 20px;
+            position: relative;
+            z-index: 2;
+        }
     }
     &__btn {
         &:hover {
@@ -144,6 +151,13 @@
         }
         &__items {
             margin-top: 40px;
+        }
+        &__item {
+            &-btn {
+                width: 150px;
+                height: 45px;
+                margin-top: 15px;
+            }
         }
         &__btn-cancel {
             width: 150px;

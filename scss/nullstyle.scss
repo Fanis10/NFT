@@ -118,6 +118,7 @@ li {
     background: linear-gradient(90deg, #464EF9 3%, #8D58FF 62.73%);
     cursor: pointer;
     position: relative;
+    border-radius: 10px;
     &:hover {
         background: linear-gradient(90deg, #7a80f8 3%, #9361ff 62.73%);
         transition: all 0.3s;

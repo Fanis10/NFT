@@ -117,6 +117,7 @@ li {
   background: linear-gradient(90deg, #464EF9 3%, #8D58FF 62.73%);
   cursor: pointer;
   position: relative;
+  border-radius: 10px;
 }
 .btn-blue:hover {
   background: linear-gradient(90deg, #7a80f8 3%, #9361ff 62.73%);
@@ -735,6 +736,10 @@ li {
   .nft-three__items {
     margin-top: 40px;
   }
+  .nft-three__item-btn {
+    width: 150px;
+    height: 45px;
+  }
 }
 @media screen and (max-width: 576px) {
   .nft-three__btns {
@@ -853,6 +858,13 @@ li {
   color: #6C6F76;
   margin-bottom: 12px;
 }
+.nft-five__item-btn {
+  width: 166px;
+  height: 55px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+}
 .nft-five__btn:hover {
   transition: all 3s;
 }
@@ -930,6 +942,11 @@ li {
   }
   .nft-five__items {
     margin-top: 40px;
+  }
+  .nft-five__item-btn {
+    width: 150px;
+    height: 45px;
+    margin-top: 15px;
   }
   .nft-five__btn-cancel {
     width: 150px;
